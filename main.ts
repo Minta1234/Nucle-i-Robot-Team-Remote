@@ -16,7 +16,7 @@ control.onEvent(DigitalPin.P8, EventBusValue.MICROBIT_EVT_ANY, function () {
 })
 let y = 0
 let x = 0
-radio.setGroup(55)
+radio.setGroup(67)
 basic.showString("Nucle-i")
 basic.forever(function () {
     x = pins.analogReadPin(AnalogPin.P1)
